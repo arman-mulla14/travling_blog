@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ladakh - Home | Land of High Passes</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><a href="index.html">Ladakh Tourism</a></div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <!-- Background YouTube video (muted autoplay + loop). If autoplay is blocked, the page will show the normal hero background. -->
+        <div id="video-bg" aria-hidden="true">
+          <iframe
+            id="bg-video-iframe"
+            class="bg-video-iframe"
+            data-src="https://www.youtube.com/embed/THuUVfbHeKo?autoplay=1&mute=1&controls=0&loop=1&playlist=THuUVfbHeKo&modestbranding=1&rel=0"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            allowfullscreen
+            title="Ladakh background video"
+          ></iframe>
+        </div>
+
+        <div class="hero-content">
+          <h1>Welcome to Ladakh</h1>
+          <h2>Land of High Passes</h2>
+          <a href="#explore" class="btn-explore">Explore More</a>
+        </div>
+      </section>
+
+      <section class="secondary-content" id="explore">
+        <div class="container">
+          <h3>A Journey to the Roof of the World</h3>
+          <p>
+            Ladakh, meaning "land of high passes," is a region administered by
+            India as a union territory. It extends from the Kunlun mountains to
+            the north to the main Great Himalayas to the south. It is known for
+            its remote mountain beauty and distinct culture. Start your
+            adventure today.
+          </p>
+          <a href="about.html" class="btn-primary">Learn About the Culture</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ladakh Tourism. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

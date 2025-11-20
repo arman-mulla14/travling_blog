@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Details | Ladakh Tourism</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><a href="index.html">Ladakh Tourism</a></div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="image-detail-section">
+        <div class="container">
+          <a href="gallery.html" class="back-link">&larr; Back to Gallery</a>
+
+          <div class="detail-content">
+            <div class="detail-image-container">
+              <img id="detailImage" src="" alt="" class="detail-image" />
+            </div>
+
+            <div class="detail-info">
+              <h1 id="locationTitle"></h1>
+              <div class="location-meta">
+                <p><strong>Altitude:</strong> <span id="altitude"></span></p>
+                <p>
+                  <strong>Best Time to Visit:</strong>
+                  <span id="bestTime"></span>
+                </p>
+                <p>
+                  <strong>Distance from Leh:</strong>
+                  <span id="distance"></span>
+                </p>
+              </div>
+
+              <h2>About This Location</h2>
+              <p id="description"></p>
+
+              <h2>Things to Do</h2>
+              <ul id="activities"></ul>
+
+              <h2>Tips for Visitors</h2>
+              <ul id="tips"></ul>
+
+              <div class="navigation-buttons">
+                <button id="prevBtn" class="btn-primary">
+                  &larr; Previous
+                </button>
+                <button id="nextBtn" class="btn-primary">Next &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ladakh Tourism. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/image-detail.js"></script>
+  </body>
+</html>
